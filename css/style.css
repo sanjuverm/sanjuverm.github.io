@@ -1,0 +1,55 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#boring-side{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #7dc380;
+	opacity: 1;
+	color: white;
+	font-size: 50px;
+
+}
+
+#name {
+	text-align: center;
+	margin-top: 35%;
+	font-size: 30px;
+}
+
+#about-me{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin: 50px;
+	margin-top: 0px;
+}
+
+#further-links{
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+a, a:active, a:visited { 
+	color: white; 
+}
+
+a:hover{
+	color: #3973ac;
+}
+
+#dynamic-side{
+
+}
+
+#sketch{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	right: 0;
+}
