@@ -12,7 +12,6 @@ body {
 	opacity: 1;
 	color: white;
 	font-size: 50px;
-
 }
 
 #name {
@@ -38,13 +37,44 @@ body {
 a, a:active, a:visited { 
 	color: white; 
 }
-
 a:hover{
 	color: #3973ac;
 }
 
-#dynamic-side{
+/*#dynamic-content{
 
+	margin: 0px;
+	height: 50%;
+	width: 50%;
+  	background-color: #ffffff;
+  	border: 1px solid black;
+  	opacity: 0.6;
+  	filter: alpha(opacity=60); /* For IE8 and earlier */
+
+/*}*/
+/*dynamic-content p {
+  margin: 25%;
+  font-weight: bold;
+  color: #000000;
+}*/
+
+#dynamic-content{
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	background: white;
+	width: 80%;
+	height: 80%;
+	border-radius: 5px;
+	padding: 3%;
+	position: absolute;
+	z-index: 10;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	opacity: 0.8;
+	border: 1px solid black;
 }
 
 #sketch{

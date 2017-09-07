@@ -3,7 +3,7 @@ var canvas;
 var balls = [];
 var colors = [];
 var al = 50;
-var numBalls = 60;
+var numBalls = 80;
 
 function setup() {
 
