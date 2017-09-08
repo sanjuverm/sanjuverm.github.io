@@ -34,37 +34,21 @@ body {
 	font-size: 25px;
 }
 
-a, a:active, a:visited { 
+/*a, a:active, a:visited { 
 	color: white; 
 }
 a:hover{
 	color: #3973ac;
-}
-
-/*#dynamic-content{
-
-	margin: 0px;
-	height: 50%;
-	width: 50%;
-  	background-color: #ffffff;
-  	border: 1px solid black;
-  	opacity: 0.6;
-  	filter: alpha(opacity=60); /* For IE8 and earlier */
-
-/*}*/
-/*dynamic-content p {
-  margin: 25%;
-  font-weight: bold;
-  color: #000000;
 }*/
 
 #dynamic-content{
+	/*vertical-align: middle;*/
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
 	background: white;
 	width: 80%;
-	height: 80%;
+	height: 90%;
 	border-radius: 5px;
 	padding: 3%;
 	position: absolute;
@@ -73,8 +57,14 @@ a:hover{
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	opacity: 0.8;
-	border: 1px solid black;
+	opacity: 0.6;
+	/*border: 1px solid black;*/
+}
+
+#experience{
+	padding: 5px;
+	/*text-align: left;*/
+	width: 20%;
 }
 
 #sketch{
@@ -82,4 +72,159 @@ a:hover{
 	width: 50%;
 	height: 100%;
 	right: 0;
+}
+
+.company{
+	font-size: 20px;
+}
+
+.work-description{
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.header {
+	font-size: 28px;
+}
+
+/**/
+
+.assignment {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	z-index: 20;
+	padding-bottom: 100px;
+}
+
+.contact {
+	width: 5%;
+	color: white;
+}
+
+.contact:hover {
+	color: #80bfff;
+}
+
+.content {
+	text-align: left;
+}
+
+a:hover{
+	color:  #3973ac;
+}
+
+.work {
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.important {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#projects h2{
+	padding: 4px;
+	border: solid;
+	border-color: #3973ac;
+	width: 14%;
+}
+
+#experiences h2{
+	padding: 5px;
+	width: 20%;
+}
+
+#name-content {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #3973ac;
+	opacity: 1;
+	color: white;
+	font-size: 50px;
+}
+
+#work-place {
+	font-size: 20px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+
+/*tiles*/
+.wrap {
+   overflow: hidden;
+   margin: 10px;
+}
+.box {
+   float: left;
+   position: relative;
+   width: 20%;
+   padding-bottom: 20%;
+}
+.boxInner {
+   position: absolute;
+   left: 10px;
+   right: 10px;
+   top: 10px;
+   bottom: 10px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.boxInner .titleBox {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin-bottom: -50px;
+   background: #000;
+   background: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   padding: 10px;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 0;
+}
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
 }

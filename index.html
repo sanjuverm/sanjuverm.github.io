@@ -19,6 +19,10 @@
     	<!-- icons -->
     	<script src="https://use.fontawesome.com/613b710be7.js"></script>
 
+    	<!-- projects css and js -->
+		<link rel='stylesheet' href='/css/tiles.css' />
+		<!-- <link rel='stylesheet' href='/css/reset.css' /> -->
+		<script src="modal.js"></script>
 
     	<!-- site title -->
     	<title> Hello, it me </title>
@@ -45,7 +49,131 @@
 		<div id = sketch>
 			<!-- area where writing is -->
 			<div id="dynamic-content">
+				<div id = "experiences" class="content">
+					<!-- <h2 class = "header"> Experiences </h2> -->
+					<h2> Experiences </h2>
+					<ul id = "work-place">
+						<b class="important"> Deloitte</b> |
+						<b class="work"> My internship project involved creating QA systems and tests to ensure data transfer security for enterprise healthcare systems. I also got to work on two UX studies for bulge bracket banks in EMEA</b><br>
+						<b class = "important"> Microsoft </b>|
+						<b class="work"> I created an IoT system with Raspberry Pi – coded christmas lights to flash to the beat of a song. Also developed numerous web apps and demos to demonstrate accessible technologies in the AR and FinTech space</b><br>
+						<b class = "important"> New York University</b> |
+						<b class="work"> I was the course grader and tutor for undergraduate introductory Python, Calculus 2 and 3, Java and Data Structure classes. </b><br>
+						<b class = "important"> Cisco</b> |
+						<b class="work"> I was an engineering intern and made wireframes, Node.JS/Angular web apps for Cisco TV, and data visualizations </b><br>
+						<b class = "important"> VMware</b> |
+						<b class="work"> Program Managerment Intern and developed an end-to-end management system in Python for software deficiency and bug monitoring. Engineers could receive real time status reports of their bugs and projects</b><br>
+						<b class = "important"> Infinera</b> |
+						<b class="work"> Product Management Intern and built changes to the manufacturing process of the DTN chassis. This resulted in an annual saving of $400K! Got to analyze cost structures, sales volumes, and product blueprints</b><br>
+					</ul>
+				</div>
 
+				<div class = "projects">
+					<body class="no-touch">
+					  <div class="wrap">
+						  <!-- Define all of the tiles: -->
+						  <h2 id = "experiences">Some of the projects I've pursued</h2>
+						  <br>
+						  <div class="box">
+						    <div class="boxInner">
+
+						      <img src="projects/GG3.png" />
+
+						      <a href = "https://chrome.google.com/webstore/detail/gilmore-ning/hcdllaknjeejdkkcmffkngmbechogegp">
+						        <div class="titleBox">Gilmore Girls Chrome Extension</div>
+						      </a>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//pilot.jpg" />
+						      <a href="/pilot"><div class="titleBox">Pilot</div></a>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//svspic.png" />
+						      <a href="https://www.nyusvs.com" ><div class="titleBox">NYU SVS</div></a>
+						    </div>
+						  </div>
+
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//united_flight_page.png" />
+						      <div class="titleBox">United Home Page Redesign</div>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//fashionisha-after.png" />
+						      <div class="titleBox">FashionNisha Logo Redesign</div>
+						    </div>
+						  </div>
+
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//emojisquare.png" />
+						      <div class="titleBox">The Emoji Game</div>
+						    </div>
+						  </div>
+
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//tatn.png" />
+						      <a href="https://techatnyu.org"><div class="titleBox">Tech@NYU</div> </a>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="projects//Quinn/QuinnLogo.png" />
+						      <a href="/helloquinn"><div class="titleBox">Hello Quinn</div></a>
+						    </div>
+						  </div>
+						  <!-- <div class="box">
+						    <div class="boxInner">
+						      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/8.jpg" />
+						      <div class="titleBox">The garden blueprint</div>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/9.jpg" />
+						      <div class="titleBox">The patio</div>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/11.jpg" />
+						      <div class="titleBox">Bumble bee collecting nectar</div>
+						    </div>
+						  </div>
+						  <div class="box">
+						    <div class="boxInner">
+						      <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/12.jpg" />
+						      <div class="titleBox">Winding garden path</div>
+						    </div>
+						  </div> -->
+
+					</div>
+
+					<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+					<script type="text/javascript">
+					$(function(){
+					   // See if this is a touch device
+					   if ('ontouchstart' in window)
+					   {
+					      // Set the correct [touchscreen] body class
+					      $('body').removeClass('no-touch').addClass('touch');
+					      // Add the touch toggle to show text when tapped
+					      $('div.boxInner img').click(function(){
+					         $(this).closest('.boxInner').toggleClass('touchFocus');
+					      });
+					   }
+					});
+					</script>
+
+
+				</div>
 			</div>
 
 
