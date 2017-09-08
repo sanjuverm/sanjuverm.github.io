@@ -38,8 +38,8 @@ function Ball() {
   this.x = random(width);
   this.y = random(height);
   this.num = int(random(0,5));
-  // console.log(this.num);
-  // console.log(colors[this.num]);
+  console.log(this.num);
+  console.log(colors[this.num]);
   this.c = colors[this.num];
   this.diameter = random(20, 60);
   this.xSpeed = random(-0.5, 0.5);
