@@ -20,11 +20,11 @@ function setup() {
   // colors.push(color(60, 179, 113, al));
 
   // Pink
-  colors.push(color(167,77,146, all));
-  colors.push(color(187,108,169, all));
-  colors.push(color(211,160,199, all));
-  colors.push(color(226,192,218, all));
-  colors.push(color(245,232,242, all));
+  colors.push(color(167,77,146, al));
+  colors.push(color(187,108,169, al));
+  colors.push(color(211,160,199, al));
+  colors.push(color(226,192,218, al));
+  colors.push(color(245,232,242, al));
 
   
 
