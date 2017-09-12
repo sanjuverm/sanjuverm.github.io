@@ -12,11 +12,19 @@ function setup() {
   canvas.parent("sketch");
   canvas.style("right", "0");
 
-  colors.push(color(93, 146, 96, al));
-  colors.push(color(191, 225, 192, al));
-  colors.push(color(237, 247, 238, al));
-  colors.push(color(160, 177, 160, al));
-  colors.push(color(60, 179, 113, al));
+  // Green 
+  // colors.push(color(93, 146, 96, al));
+  // colors.push(color(191, 225, 192, al));
+  // colors.push(color(237, 247, 238, al));
+  // colors.push(color(160, 177, 160, al));
+  // colors.push(color(60, 179, 113, al));
+
+  // Pink
+  colors.push(color(167,77,146, all));
+  colors.push(color(187,108,169, all));
+  colors.push(color(211,160,199, all));
+  colors.push(color(226,192,218, all));
+  colors.push(color(245,232,242, all));
 
   
 
