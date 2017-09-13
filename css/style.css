@@ -35,6 +35,12 @@ body {
 	font-size: 25px;
 }
 
+#further-links-content{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+}
+
 /*a, a:active, a:visited { 
 	color: white; 
 }
@@ -71,7 +77,8 @@ a:hover{
 #sketch{
 	position: absolute;
 	width: 50%;
-	height: 100%;
+	/*height: 100%;*/
+	height: auto;
 	right: 0;
 }
 
