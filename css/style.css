@@ -236,3 +236,13 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
+/*dot is class, hashtag is iD*/
+
+/*.portrait-square{
+	max-height: 50%;
+}*/
+
+#minimized-image{
+	width: 40%;
+}
